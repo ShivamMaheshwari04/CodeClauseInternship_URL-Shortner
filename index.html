@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener - Convert Your Link Here!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h1 class="h-primary">
+                URL SHORTENER
+            </h1>
+            <input type="text" placeholder="Paste Your Link" id="Link-Input">
+            <button type="submit" id="Link-submit">Shorten</button>
+            <div class="Link-viewer">
+                <button data-copy class="copy">
+                    <span class="tooltip" data-copyMsg></span>
+                    <img src="copy-icon.png" alt="copy" class="copybtn" width="18" height="18" >
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/5931508a5c.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
